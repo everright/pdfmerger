@@ -1,0 +1,22 @@
+{
+    "name": "erc/pdfmerger",
+    "description": "Library for merging multiple PDFs",
+    "keywords": ["pdf", "merge"],
+    "homepage": "https://github.com/everright/pdfmerger",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "everright chen",
+            "email": "everright.chen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "erc\\pdfmerger\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
